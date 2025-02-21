@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Bikoman</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <!-- Left Side - Logo -->
+            <div class="logo-box">
+                <p>LOGO</p>
+            </div>
+
+            <!-- Right Side - Login Form -->
+            <div class="login-form" >
+                <h3>Login your account to continue.</h3>
+
+                <form action="dashboard.php">
+                    <label for="role">Sign in as</label>    
+                    <select id="role">
+                        <option>Select your role</option>
+                        <option>Customer</option>
+                        <option>Admin</option>
+                    </select>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" >
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" >
+
+                    <button type="submit" class="btn-login">Login</button>
+
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </form>
+
+                <p class="terms">
+                    By continuing, you must agree to our <span class="highlight">Terms</span>, 
+                    <span class="highlight">Privacy Policy</span>, and <span class="highlight">Cookie Use</span>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-info">
+            <div>
+                <h4>Opening Hours</h4>
+                <p>Monday - Sunday<br>7am - 6pm</p>
+            </div>
+            <div>
+                <h4>Location</h4>
+                <p>Zone 2, Brgy. Kiskis, Alcala, Pangasinan<br>(In front of Ilovekiskis)</p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>Mobile #: <span class="contact-number">+63908576308</span><br>Fb Page: Bikoman Bikoman</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+  background-color: #ffe8d9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 80vh; 
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+}
+
+.logo-box {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-right: 50px; 
+}
+
+.login-form {
+  max-width: 350px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-login {
+  background-color: #b76e27;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  background-color: #965a1e;
+}
+
+.forgot-password {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.terms {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.terms .highlight {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  background-color: #fce4d6;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: auto;
+}
+
+.footer-info h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-info p {
+  font-size: 0.9rem;
+  color: #333;
+}
+.contact-number {
+  color: red;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo-box {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    text-align: center;
+  }
+}
