@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+
+    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+    
+    <aside class="sidebar" id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#"><img src="assets/images/home.png" alt="Home"></a></li>
+                <li><a href="#"><img src="assets/images/box.png" alt="Box"></a></li>
+                <li><a href="#"><img src="assets/images/bill.png" alt="Bill"></a></li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <main>
+        <h1>BIKOMAN</h1>
+
+        <div class="card-container">
+            <div class="card">
+                <button class="item-name">Item Name</button>
+                <input type="text" placeholder="Search...">
+                <button class="search">Search</button>
+                <button class="add-item">Add Item</button>
+            </div>
+
+            <div class="card2">
+            </div>
+
+        </div>
+
+    </main>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
